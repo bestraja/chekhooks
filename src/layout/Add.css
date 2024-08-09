@@ -1,0 +1,87 @@
+
+div {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .add {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add:hover {
+    background-color: #45a049; 
+  }
+  
+  
+  .addcart {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000; 
+  }
+  
+  .addcontaint {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .closebutton {
+    align-self: flex-end;
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .closebutton:hover {
+    background-color: #d32f2f; 
+  }
+  
+
+  .inpucart input {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px); 
+  }
+  
+  
+  .buttonadd {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .buttonadd:hover {
+    background-color: #45a049; 
+  }
+  
