@@ -1,9 +1,11 @@
 import React from 'react'
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../layout/Add.css'
 function Add({add}) 
 {
   const [Show,setShow]=useState(false)
+  const navigate=useNavigate()
   const[movie,setmovie]=useState(
     {
         title:'',
@@ -12,7 +14,8 @@ function Add({add})
         rate:''
 
     })
-
+    
+    
   return (
 
     <div>
@@ -58,6 +61,7 @@ function Add({add})
                 add(movie);
                 setmovie({ title: '', description: '', posterUrl: '', rate: 0 }); 
                 setShow(false); 
+                navigate('/');
               }}
             >
               Add To Cart
